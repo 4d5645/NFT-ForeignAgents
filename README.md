@@ -62,3 +62,5 @@ const WomboDream = require('dream-api');
 pip install removebg
 ```
 1. Edit the remove-bg.ipynb to fit your needs.
+### How to upload NFTs to the marketplace?
+0. Create a Metamask account, then an account on Opensea. Then navigate to the mintNlist folder and follow the instructions there!
