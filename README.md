@@ -30,7 +30,7 @@ python3 tgchannel_parser/tgchannel_parser.py tgchannel_parser/macknack.json tgch
 To get descriptions for the latest posts on a banned social network with pictures, use the following script:
 
 ```
-python3 inst-parser/inst.py [profile nickname] [path_to_output_csv_file]
+python3 inst-parser/inst.py [profile_link] [path_to_output_csv_file]
 
 ```
 
