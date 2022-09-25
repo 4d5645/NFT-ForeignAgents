@@ -1,0 +1,1 @@
+let image = await WomboDream.generateImage(1, "dog");
