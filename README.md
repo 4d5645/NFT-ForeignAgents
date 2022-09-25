@@ -31,9 +31,10 @@ To get descriptions for the latest posts on a banned social network with picture
 
 ```
 python3 inst-parser/inst.py [profile_link] [path_to_output_csv_file]
-
 ```
 4. To parse all information about Russian foreign agents from Wikipedia, use the script:
 ```
 python3 wiki-parser/wiki_parser.py
 ```
+### How to write a prompt for a neural network?
+
