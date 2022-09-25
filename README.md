@@ -16,4 +16,6 @@ numpy==1.23.1
 translators==5.4.2
 ```
 ### How to parse data?
-
+1. Choose a foreign agent
+2. Find their telegram channel or profile on a banned social network with pictures
+3. Download json from the telegram channel according to the [instructions](https://www.mobigyaan.com/telegram-4-9-1-update).
