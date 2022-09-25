@@ -27,10 +27,13 @@ Example with Michael Nucky:
 ```
 python3 tgchannel_parser/tgchannel_parser.py tgchannel_parser/macknack.json tgchannel_parser/macknack.csv 
 ```
-To get descriptions for the latest posts on a banned social network with pictures, use the following script:
-
+To get descriptions for the latest posts on a banned social network with pictures, enter your data in private_data.py and use the following script:
 ```
 python3 inst-parser/inst.py [profile_link] [path_to_output_csv_file]
+```
+Again example with Michael Nucky:
+```
+python3 inst-parser/inst.py https://instagram.com/macknack inst-parser/macknack.csv 
 ```
 4. To parse all information about Russian foreign agents from Wikipedia, use the script:
 ```
