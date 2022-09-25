@@ -21,9 +21,14 @@ translators==5.4.2
 3. Download json from the telegram channel according to the [instructions](https://www.mobigyaan.com/telegram-4-9-1-update). 
 To get all messages of the author of the channel since February 24, use the script tgchannel_parser.py:
 ```
-python3 tgchannel_parser.py [name_of_json_file] [name_of_output_csv_file]
+python3 tgchannel_parser/tgchannel_parser.py [path_to_json_file] [path_to_output_csv_file]
 ```
 Example with Michael Nucky:
 ```
-python3 tgchannel_parser.py macknack.json macknack.csv 
+python3 tgchannel_parser/tgchannel_parser.py tgchannel_parser/macknack.json tgchannel_parser/macknack.csv 
+```
+To get descriptions for the latest posts on a banned social network with pictures, use the following script:
+
+```
+python3 tgchannel_parser.py [name_of_json_file] [name_of_output_csv_file]
 ```
