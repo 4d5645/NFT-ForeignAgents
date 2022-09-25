@@ -46,6 +46,13 @@ transformers==4.22.1
 sentencepiece==0.1.97
 ```
 1. Use jupiter notebook summarization.ipynb. Then finalize and specify your request and go generate nft! Good luck!
+### How to generate pictures?
+0. Install Wombo Dream API (it's NodeJS):
+```
+npm install dream-api
+const WomboDream = require('dream-api');
+```
+1. To generate an image from text prompt customize the dream-ai.js file.
 ### How to delete background?
 0. Install removebg distro:
 ```
