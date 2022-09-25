@@ -7,6 +7,12 @@ The project is dedicated to solving the problem of partially automating the crea
 To use parsers, install the following packages:
 
 ```
-Look! You can see my backticks.
+pandas==1.4.3
+Wikipedia-API==0.5.4
+webdriver-manager==3.8.3
+beautifulsoup4==4.11.1
+selenium==4.4.3
+numpy==1.23.1
+translators==5.4.2
 ```
 
