@@ -23,7 +23,7 @@ To get all messages of the author of the channel since February 24, use the scri
 ```
 python3 tgchannel_parser/tgchannel_parser.py [path_to_json_file] [path_to_output_csv_file]
 ```
-Example with Michael Nucky:
+Example with Michael Nacke:
 ```
 python3 tgchannel_parser/tgchannel_parser.py tgchannel_parser/macknack.json tgchannel_parser/macknack.csv 
 ```
@@ -31,7 +31,7 @@ To get descriptions for the latest posts on a banned social network with picture
 ```
 python3 inst-parser/inst.py [profile_link] [path_to_output_csv_file]
 ```
-Again example with Michael Nucky:
+Again example with Michael Nacke:
 ```
 python3 inst-parser/inst.py https://instagram.com/macknack inst-parser/macknack.csv 
 ```
