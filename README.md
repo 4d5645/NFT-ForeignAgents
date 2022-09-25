@@ -37,4 +37,4 @@ python3 inst-parser/inst.py [profile_link] [path_to_output_csv_file]
 python3 wiki-parser/wiki_parser.py
 ```
 ### How to write a prompt for a neural network?
-
+Use jupiter notebook summarization.ipynb. Then finalize and specify your request and go generate nft! Good luck!
