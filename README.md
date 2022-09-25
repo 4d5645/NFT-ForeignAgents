@@ -4,8 +4,9 @@ Welcome to the main page of the project NFT-foreign agents of the team "Свой
 
 The project is dedicated to solving the problem of partially automating the creation and placement of NFT tokens for foreign agents.
 
-To use parsers, install the following requirements:
+### How to parse data?
 
+0. Install the following requirements:
 ```
 pandas==1.4.3
 Wikipedia-API==0.5.4
@@ -15,7 +16,6 @@ selenium==4.4.3
 numpy==1.23.1
 translators==5.4.2
 ```
-### How to parse data?
 1. Choose a foreign agent
 2. Find their telegram channel or profile on a banned social network with pictures
 3. Download json from the telegram channel according to the [instructions](https://www.mobigyaan.com/telegram-4-9-1-update). 
@@ -37,4 +37,12 @@ python3 inst-parser/inst.py [profile_link] [path_to_output_csv_file]
 python3 wiki-parser/wiki_parser.py
 ```
 ### How to write a prompt for a neural network?
-Use jupiter notebook summarization.ipynb. Then finalize and specify your request and go generate nft! Good luck!
+0. Install the following requirements:
+```
+torch==1.8.2+cu111
+torchvision==0.9.2+cu111 
+torchaudio===0.8.2
+transformers==4.22.1
+sentencepiece==0.1.97
+```
+1. Use jupiter notebook summarization.ipynb. Then finalize and specify your request and go generate nft! Good luck!
