@@ -1,9 +1,10 @@
+import sys
 import json
 import pandas as pd
 from datetime import date
 
   
-with open('macknack.json') as f:
+with open(sys.argv[1]) as f:
     data = json.load(f)
 macknack = []
 for i in data["messages"]:
@@ -16,4 +17,4 @@ for i in data["messages"]:
         continue
 
 df = pd.DataFrame(macknack)
-df.to_csv('macknack.csv')
+df.to_csv(sys.argv[2])
