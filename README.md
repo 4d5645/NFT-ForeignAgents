@@ -4,7 +4,7 @@ Welcome to the main page of the project NFT-foreign agents of the team "Свой
 
 The project is dedicated to solving the problem of partially automating the creation and placement of NFT tokens for foreign agents.
 
-To use parsers, install the following packages:
+To use parsers, install the following requirements:
 
 ```
 pandas==1.4.3
