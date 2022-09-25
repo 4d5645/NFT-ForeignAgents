@@ -46,3 +46,9 @@ transformers==4.22.1
 sentencepiece==0.1.97
 ```
 1. Use jupiter notebook summarization.ipynb. Then finalize and specify your request and go generate nft! Good luck!
+### How to delete background?
+0. Install removebg distro:
+```
+pip install removebg
+```
+1. Edit the remove-bg.ipynb to fit your needs.
